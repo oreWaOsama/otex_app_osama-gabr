@@ -125,7 +125,12 @@ class AdCard extends StatelessWidget {
                       ),
                     ),
                     SizedBox(width: width * 0.01),
-                    SvgPicture.asset(Assets.mostaLogo, width: 60, height: 26),
+                    Image.asset(
+                      Assets.mostaLogo,
+                      height: height * 0.028,
+                      width: width * 0.057,
+                      fit: BoxFit.contain,
+                    ),
                   ],
                 ),
               ],

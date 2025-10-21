@@ -14,8 +14,9 @@ class Assets {
   static const String companyBadge = "assets/icons/Company_Badge.svg";
   static const String favoriteIcon = "assets/icons/favorite.svg";
   static const String bxsOffer = "assets/icons/bxs_offer.svg";
-  static const String mostaLogo = "assets/icons/mosta_logo.svg";
+  static const String mostaLogo = "assets/icons/f054eabcf941a098a2916c1acc3a3953b61846a7.png";
   static const String addShopping = "assets/icons/add_shopping_cart.svg";
   static const String hodee = "assets/images/hodee.png";
-  static const String localFireDepartment = "assets/icons/local_fire_department.svg";
+  static const String localFireDepartment =
+      "assets/icons/local_fire_department.svg";
 }
