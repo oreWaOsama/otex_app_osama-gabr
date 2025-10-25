@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:otex_app_test/core/helper/app_image_assets.dart';
+import 'package:otex_app_test/core/routing/app_router.dart';
 import 'package:otex_app_test/features/home/ui/home_screen.dart';
 import 'package:otex_app_test/features/layout/ui/widgets/bottom_nav_item.dart';
 
@@ -75,10 +76,9 @@ class _UserHomeViewState extends State<UserHomeView> {
                 index: 4,
                 iconPath: Assets.profileIcon,
                 label: 'حسابي',
-                isActive: _currentIndex == 4,
+                isActive: false,
                 onTap: () {
-                  _currentIndex = 4;
-                  setState(() {});
+                  AppRouter.goToPlansScreen(context);
                 },
               ),
             ],

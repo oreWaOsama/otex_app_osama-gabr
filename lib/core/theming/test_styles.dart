@@ -8,6 +8,11 @@ class TextStyles {
     fontWeight: FontWeightHelper.bold700,
     color: ColorsManager.myBlack,
   );
+  static TextStyle font24BlackMedium500 = const TextStyle(
+    fontSize: 24,
+    fontWeight: FontWeightHelper.medium500,
+    color: ColorsManager.myBlack,
+  );
 
   static TextStyle font16BlackMedium500 = const TextStyle(
     fontSize: 16,
@@ -23,6 +28,16 @@ class TextStyles {
   static TextStyle font14BlackMedium500 = const TextStyle(
     fontSize: 14,
     fontWeight: FontWeightHelper.medium500,
+    color: ColorsManager.myBlack,
+  );
+  static TextStyle font14BlackRegular400 = const TextStyle(
+    fontSize: 14,
+    fontWeight: FontWeightHelper.regular400,
+    color: ColorsManager.myBlack,
+  );
+  static TextStyle font14BlackBold700 = const TextStyle(
+    fontSize: 14,
+    fontWeight: FontWeightHelper.bold700,
     color: ColorsManager.myBlack,
   );
 

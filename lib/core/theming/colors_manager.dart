@@ -17,6 +17,8 @@ class ColorsManager{
    static const royalBlue10 = Color(0x1A3B4CF2); // ~10% transparent
    static const black10 = Color(0x1A000000); 
    static const black5 = Color(0x0D000000);
+   static const opaqueMyColor = Color(0xFF813F0D);
+     static const Color priceColor = Color(0xffFF4144);
 
    
 }
