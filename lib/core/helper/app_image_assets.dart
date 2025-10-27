@@ -28,4 +28,13 @@ class Assets {
   static const String keep = "assets/icons/keep.svg";
   static const String workspacePremium = "assets/icons/workspace_premium.svg";
   static const String globe = "assets/icons/globe.svg";
+  static const String  shirt = "assets/products/shirt.png";
+  static const String  bag = "assets/products/bag.png";
+  static const String  necklace = "assets/products/necklace.png";
+  static const String  camera = "assets/products/camera.png";
+  static const String  printer = "assets/products/printer.jpg";
+  static const String  beautyProduct1 = "assets/products/beauty_product1.jpg";
+  static const String  beautyProduct2 = "assets/products/beauty_product2.png";
+  static const String  villa1 = "assets/products/villa1.png";
+  static const String  villa2 = "assets/products/villa2.png";
 }
